@@ -37,19 +37,27 @@ li {
 .horizontal {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    right: 25%;
 }
 
 .horizontal button {
     margin-right: 35px;
     border-radius: 25px;
     background-color: #f4f4f4;
-    height: 30px;
+    height: 35px;
     width: 150px;
     text-align: center;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border: solid 1px #272727;
+}
+
+.horizontal button:hover {
+    background-color: #272727;
+    color: #f4f4f4;
+    border: solid 1px #f4f4f4;
 }
 
 .vertical {
@@ -60,7 +68,7 @@ li {
 }
 
 .vertical button {
-    height: 30px;
+    height: 35px;
     width: 150px;
     border-radius: 25px;
     background-color: #f4f4f4;
@@ -71,6 +79,12 @@ li {
     border: solid 1px #272727;
     margin-bottom: 25px;
     margin-right: 15px;
+}
+
+.vertical button:hover {
+    background-color: #272727;
+    color: #f4f4f4;
+    border: solid 1px #f4f4f4;
 }
 
 input {
