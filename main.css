@@ -1,39 +1,46 @@
+/* Сброс отступов и полей для всех элементов */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Установка фонового цвета для всей страницы */
 body {
     background-color: #272727;
 }
 
+/* Стили для заголовка */
 header {
     color: #272727;
     text-align: center;
     padding: 10px 0;
 }
 
+/* Удаление маркеров списка и отступов */
 header ul {
     list-style: none;
     padding: 0;
 }
 
+/* Расположение элементов списка в строку */
 header li {
     display: inline;
     margin: 0 15px;
 }
 
+/* Стили для контейнера кнопок */
 .button {
     display: flex;
     flex-direction: row;
     margin: 25px;
 }
 
-
+/* Расположение элементов списка слева */
 li {
     float: left;
 }
 
+/* Горизонтальное расположение кнопок */
 .horizontal {
     display: flex;
     flex-direction: row;
@@ -41,6 +48,7 @@ li {
     right: 25%;
 }
 
+/* Стили для кнопок в горизонтальном контейнере */
 .horizontal button {
     margin-right: 35px;
     border-radius: 25px;
@@ -54,12 +62,14 @@ li {
     border: solid 1px #272727;
 }
 
+/* Эффект при наведении на кнопку */
 .horizontal button:hover {
     background-color: #272727;
     color: #f4f4f4;
     border: solid 1px #f4f4f4;
 }
 
+/* Вертикальное расположение кнопок */
 .vertical {
     position: absolute;
     left: 86%;
@@ -67,6 +77,7 @@ li {
     flex-direction: column;
 }
 
+/* Стили для кнопок в вертикальном контейнере */
 .vertical button {
     height: 35px;
     width: 150px;
@@ -81,12 +92,14 @@ li {
     margin-right: 15px;
 }
 
+/* Эффект при наведении на кнопку */
 .vertical button:hover {
     background-color: #272727;
     color: #f4f4f4;
     border: solid 1px #f4f4f4;
 }
 
+/* Стили для поля ввода */
 input {
     margin-right: 35px;
     height: 30px;
@@ -99,14 +112,17 @@ input {
     border: solid 1px #272727;
 }
 
+/* Отступы для основного контента */
 main {
     padding: 20px;
 }
 
+/* Отступ слева для поля поиска */
 .search {
     padding-left: 10px;
 }
 
+/* Стили для контейнера объявлений */
 .ads {
     display: flex;
     flex-wrap: wrap;
@@ -121,6 +137,7 @@ main {
     }
 }
 
+/* Стили для каждого объявления */
 .ad {
     color: #f4f4f4;
     padding: 15px;
@@ -129,6 +146,7 @@ main {
     width: calc(25% - 20px);
 }
 
+/* Стили для кнопок внутри объявления */
 .ad button {
     border: none;
     box-shadow: none;
@@ -140,16 +158,19 @@ main {
     cursor: pointer;
 }
 
+/* Стили для изображений */
 img {
     width: 285px;
     height: 200px;
 }
 
+/* Стили для кнопки "Показать еще" */
 .load-more {
     text-align: center;
     margin: 20px 0;
 }
 
+/* Стили для кнопки "Показать еще" */
 .load-more-button {
     background-color: #f4f4f4;
     color: #272727;
@@ -166,6 +187,7 @@ img {
     display: inline-flex;
 }
 
+/* Эффект при наведении на кнопку "Показать еще" */
 .load-more-button:hover {
     background-color: #272727;
     color: #f4f4f4;

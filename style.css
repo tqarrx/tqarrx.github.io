@@ -1,12 +1,15 @@
+/* Сброс отступов и полей для всех элементов */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Установка фонового цвета для всей страницы */
 body {
     background-color: #272727;
 }
 
+/* Стили для контейнера авторизации */
 .authtorization-container {
     width: 400px;
     height: 180px;
@@ -20,26 +23,31 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/* Стили для заголовка авторизации */
 .authtorization-container h1 {
     margin-bottom: 15px;
 }
 
+/* Стили для формы авторизации */
 .authtorization-container form {
     display: flex;
     flex-direction: column;
 }
 
+/* Стили для полей ввода */
 .authtorization-container input {
     margin-bottom: 15px;
     padding: 10px;
 }
 
+/* Стили для контейнера кнопок */
 .button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} 
+}
 
+/* Стили для кнопок */
 button {
     border-radius: 25px;
     background-color: #f4f4f4;
@@ -52,11 +60,13 @@ button {
     border: solid 1px #272727;
 }
 
+/* Эффект при наведении на кнопку */
 button:hover {
     background-color: #272727;
     color: #f4f4f4;
 }
 
+/* Стили для полей ввода */
 input {
     border: none;
     outline: none;

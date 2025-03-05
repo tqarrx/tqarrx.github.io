@@ -7,47 +7,53 @@
     <title>Мои объявления</title>
 </head>
 <body>
-    <header class="header">
-        <div class="button">
-            <ul class="horizontal">
-                <li><a href="./main.html"><button>Главная</button></a></li>
-                <li><button>Категории</button></li>
-                <li><input type="text" placeholder="Поиск" class="search"></li>
-                <li><button>Найти</button></li>
-                <li><button>Воркута</button></li>
-            </ul>
-            <ul class="vertical">
-                <li><button>Аксенов Максим</button></li>
-                <li><button>Сообщения</button></li>
-                <li><a href="./ad.html"><button>Мои объявления</button></a></li>
-                <li><button>Разместить объявление</button></li>
-                <li><button>Рейтинг</button></li>
-                <li><button>Отзывы</button></li>
-                <li><a href="./index.html"><button>Выход</button></a></li>
-            </ul>
+   <!-- Шапка сайта -->
+   <header class="header">
+    <div class="button">
+        <!-- Горизонтальное меню -->
+        <ul class="horizontal">
+            <li><a href="./main.html"><button>Главная</button></a></li>
+            <li><button>Категории</button></li>
+            <li><input type="text" placeholder="Поиск" class="search"></li>
+            <li><button>Найти</button></li>
+            <li><button>Воркута</button></li>
+        </ul>
+        <!-- Вертикальное меню -->
+        <ul class="vertical">
+            <li><button>Аксенов Максим</button></li>
+            <li><button>Сообщения</button></li>
+            <li><a href="./ad.html"><button>Мои объявления</button></a></li>
+            <li><button>Разместить объявление</button></li>
+            <li><button>Рейтинг</button></li>
+            <li><button>Отзывы</button></li>
+            <li><a href="./index.html"><button>Выход</button></a></li>
+        </ul>
+    </div>
+    <!-- Статус объявлений -->
+    <div class="status">
+        <div>
+            <a href="./ad.html"><button>Активные</button></a>
         </div>
-        <div class="status">
-            <div>
-                <a href="./ad.html"><button>Активные</button></a>
-            </div>
-            <div class="active">
-                <a href="./ad1.html"><button>Завершенные</button></a>
-            </div>
+        <div class="active">
+            <a href="./ad1.html"><button>Завершенные</button></a>
         </div>
-    </header>
-    <main>
-        <section class="ads">
-            <div class="ad">
-                <button>
-                    <div class="active">
-                        <img src="./img/img18.jpeg" alt="">
-                        <h3>Steam Deck Oled 512GB</h3>
-                        <p>55 900 ₽</p>
-                        <p>Воркута</p>
-                    </div>
-                </button>
-            </div>
-        </section>
-    </main>
+    </div>
+</header>
+<!-- Основной контент -->
+<main>
+    <section class="ads">
+        <!-- Объявление -->
+        <div class="ad">
+            <button>
+                <div class="active">
+                    <img src="./img/img18.jpeg" alt="">
+                    <h3>Steam Deck Oled 512GB</h3>
+                    <p>55 900 ₽</p>
+                    <p>Воркута</p>
+                </div>
+            </button>
+        </div>
+    </section>
+</main>
 </body>
 </html>
